@@ -71,7 +71,7 @@
   (with-temp-buffer
     (insert-file-contents infile)
     (org-mode)
-    (let ((org-info (org-infile-export-plist)))
+    (let ((org-info (org-export-get-environment)))
       (when (plist-get org-info :title)
 	(save-excursion
 	  (with-temp-buffer
