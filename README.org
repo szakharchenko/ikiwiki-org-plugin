@@ -8,6 +8,11 @@
   that it is not hanging -- but is nearly feature-complete and can be
   used instead of the [[http://ikiwiki.info/todo/org_mode/][existing org-mode plugin]].  An example of it in
   action is my [[http://chrismgray.github.com/][blog]].
+
+  
+* Compatibility
+
+  This version is known to work with git org-mode at commit 62950827eccedbb7deb11684c2ad6995213cf67d.
   
 * Motivation
 
